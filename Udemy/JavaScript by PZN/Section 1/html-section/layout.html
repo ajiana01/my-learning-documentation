@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        header {
+            background-color: aquamarine;
+            padding: 20px;
+            text-align: center;
+            font-size: 36px;
+            color: blue;
+        }
+        nav {
+            background-color: aqua;
+            padding: 5px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            color: brown;
+        }
+
+        article {
+            padding: 10px;
+            width: 100%;
+            background-color: blanchedalmond;
+        }
+        footer {
+            background-color: aquamarine;
+            padding: 10px;
+            font-size: 12px;
+            text-align: center;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Judul Halaman</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Article</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h1>Article 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, rem.</p>
+        </article>
+        <article>
+            <h1>Article 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, rem.</p>
+        </article>
+    </section>
+    <footer>
+        <hr>
+        <p>Copyright: Aji Ananta <time datetime="2023">2023</time> </p>
+    </footer>
+</body>
+</html>
