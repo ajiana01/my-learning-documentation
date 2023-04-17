@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Courier New', sans-serif;
+        }
+
+        .tebal {
+            font-weight: bold;
+        }
+        .reg {
+            font-weight: 500;
+        }
+        .right {
+            text-align: right;
+        }
+    </style>
+    <title>Struktur algoritma</title>
+</head>
+<body>
+    <h1>Mengenal Algoritma</h1>
+
+    <h2>
+        Mengenal Pseudocode
+    </h2>
+
+    <p>adalah cara penulisan algoritma yang hampur menyerupai bahasa pemrograman, namun Pseudocode ditulis lebih sederhana dengan menggunakan bahasa baku yang mudah dipahami oleh manusia</p>
+
+    <p>Struktur penulisan Pseudocode dibagi menjadi 3 bagian</p>
+
+    <ol>
+        <li class="tebal">
+           Bagian judul 
+        </li>
+        <p> bagian judul diawali dengan kata "PROGRAM" kemudian diikuti dengan nama algoritma</p>
+        <li class="tebal">
+            Bagian deklarasi
+        </li>
+        <p>
+            Deklarasi digunakan untuk mendeklarasikan variable-variable apa yang akan digunakan dalam algoritma dan jenisnya
+        </p>
+        <li class="tebal">
+            Bagian isi
+        </li>
+        <p>
+            bagian ini merupakan bagian utama dari jalannya algoritma
+        </p>
+    </ol>
+
+    <p class="tebal">
+        Contoh penulisan pseudocode
+    </p>
+    <p>
+        Pseudocode untuk menghitung luas persegi panjang:
+    </p>
+    <p class="tebal">PROGRAM <span class="reg"> CariLuasPersegiPanjang</span></p>
+
+    <p class="tebal">DEKLRASI <br>
+        <span class="reg">
+            int p,l <br>
+            float hasil
+        </span>
+    </p>
+    <p class="tebal">
+        ALGORITMA <br>
+        <span class="reg">
+            read(p,l) <br>
+            hasil = p*l <br>
+            write("Luas persegi panjang:", hasil)
+        </span>
+    </p>
+    <h2>
+        Mengenali kondisi percabangan/Pemilihan
+    </h2>
+
+    <p>Contoh flowchart:</p>
+
+    <img src="/img/flowchart.png" alt="flowchart" width="450">
+
+    <p>Pseudocode Studi kasus Abdul</p>
+    <p class="tebal">
+        PROGRAM
+        <span class="reg">
+            AlgoritmaPembelianSepatuAbdul
+        </span>
+    </p>
+
+    <p class="tebal">
+        DEKLARASI <br>
+        <span class="reg">
+            budget :int  <-1.000.000 <br>
+            HargaAdidasAlgo :int <-1.200.00 <br>
+            HargaAdidaRitma :int <-900.000
+        </span>
+    </p>
+
+    <p class="tebal">
+        ALGORITMA <br>
+        <span class="reg">
+            PergiAdidasStore() <br>
+            <span class="tebal">if </span>HargaAdidasAlgo < budget <span class="tebal">then</span> <br>
+            BeliAdidasAlgo() <br>
+            <span class="tebal">Else</span> BeliAdidasRitma()
+        </span>
+    </p>
+
+    <h2>
+        Struktur Percabangan/Pemilihan
+    </h2>
+
+    <p>Adalah struktur program yang melakukan proses pengujian untuk mengambil suatu keputusan apakah suatu baris atau blok instruksi akan diproses atau tidak</p>
+
+    <p>Pernyataan 1 -> 7 = 7 (Benar)</p>
+    <p>Pernyataan 2 -> 4 = 5 (Salah)</p>
+    <p>Pernyataan 3 -> 4 > 2 (Benar)</p>
+
+    <p>Struktur pemilihan dalam penulisan program dituliskan dengan instruksi IF <br>
+    macam-macam struktur if adalah sebagai berikut:</p>
+    <ol>
+        <li>
+            IF satu kondisi
+        </li>
+        <img src="/img/ifsatukondisi.png" width="600">
+        <p>contoh:</p>
+        <img src="img/contohifsatukondisi.png" width="600">
+        <li>
+            IF dua kondisi
+        </li>
+        <img src="img/ifduakondisi.png" width="600">
+        <p>contoh:</p>
+        <img src="img/contohifduakondisi.png" width="600">
+        <li>
+            IF banyak kondisi (nested IF)
+        </li>
+        <img src="img/ifbanyakkondisi.png" width="600">
+        <p>contoh:</p>
+        <img src="img/contohifbanyakkondisi.png" width="600">
+    </ol>
+
+    <h2>
+        Mengenali Pola Perulangan
+    </h2>
+
+    <h2>
+        Struktur Perulangan
+    </h2>
+
+    <h2>
+        Prosedur
+    </h2>
+
+    <h2>
+        Fungsi
+    </h2>
+
+</body>
+</html>
