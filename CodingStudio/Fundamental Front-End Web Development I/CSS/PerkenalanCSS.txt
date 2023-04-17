@@ -1,0 +1,36 @@
+Objektif:
+1.Mengerti cara menggunakan 'selector'
+2.Paham cara menggabungkan css dan HTML
+3.Mengeksplore dan mempeljari cara menggunakan "property" css
+4.Membuat responsive
+
+#Integrasi HTML & CSS#
+
+1. Inline CSS (didalam baris html)
+
+    index.HTML
+    <h1 style="color: blue;">Text Biru</h1>
+
+2. Internal CSS (masih berada dalam html namun pada tag style)
+
+    index.HTML
+    <style>
+        <h1> {
+            color: blue;
+        }
+    
+    </style>
+
+    <h1>Text Biru</h1>
+
+3. Eksternal (menggunakan file css tersendiri)
+
+    index.html
+    <link rel="stylesheet href="./style.css">
+
+    <h1>Text Biru</h1>
+
+    style.css
+    h1 {
+        color: blue;
+    }

@@ -1,0 +1,67 @@
+<!-- HTML Table -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Contoh website yang menggunakan table: https://www.worldometers.info/coronavirus/
+
+    <table border="1">
+        <tr>
+          <th>Header Kolom 1</th>
+          <th>Header Kolom 2</th>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+        </tr>
+        <tr>
+          <td>Data 3</td>
+          <td>Data 4</td>
+        </tr>
+      </table>
+      
+      Penjelasan dari tag-table dan atribut-atributnya adalah sebagai berikut:
+
+        <table></table> tag pembuka untuk tabel
+        <tr></tr>: tag untuk membuat baris pada tabel
+        <th></th>: tag untuk membuat header pada tabel. Biasanya digunakan untuk menampilkan nama kolom.
+        <td></td>: tag untuk membuat sel pada tabel. Digunakan untuk menampilkan data pada tabel.
+
+    Atribut-atribut yang sering digunakan pada tag-table adalah:
+
+        border: menentukan tebal garis batas tabel. Contoh: border="1"
+        cellspacing: menentukan jarak antara sel-sel pada tabel. Contoh: cellspacing="0"
+        cellpadding: menentukan jarak antara batas sel dan isi sel pada tabel. Contoh: cellpadding="5"
+        width: menentukan lebar tabel. Contoh: width="100%"
+    
+    Selain itu, kita juga dapat menggabungkan beberapa sel pada tabel dengan menggunakan atribut rowspan dan colspan. Atribut rowspan digunakan untuk menggabungkan beberapa baris pada tabel, sedangkan atribut colspan digunakan untuk menggabungkan beberapa kolom pada tabel.
+
+    Contoh penggunaan atribut rowspan dan colspan:
+    
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+          <th rowspan="2">Nama</th>
+          <th colspan="2">Alamat</th>
+        </tr>
+        <tr>
+          <th>Jalan</th>
+          <th>Kota</th>
+        </tr>
+        <tr>
+          <td>Alice</td>
+          <td rowspan="2">Jl. Kenangan</td>
+          <td>Surabaya</td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>Malang</td>
+        </tr>
+      </table>
+      
+</body>
+</html>

@@ -1,0 +1,20 @@
+.color{
+    color: blue;
+    /* color: rgb(red, green, blue);
+    color: rgba(red, green, blue, alpha);
+    color: hsl(hue, saturation, lightness);
+    color: hsla(hue, saturation, lightness, alpha);
+    color: #000; */
+}
+
+.alignment {
+    text-align: center;
+    /* text-align: left;
+    text-align: right;
+    text-align: justify; */
+}
+
+.decoration{
+    text-decoration: line-through;
+    
+}

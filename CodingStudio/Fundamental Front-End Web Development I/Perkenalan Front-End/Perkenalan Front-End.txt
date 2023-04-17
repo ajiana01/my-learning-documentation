@@ -1,0 +1,47 @@
+Kenapa kita harus belajar membuat tampilan website responsive
+1. Website adalah saran pemberi informasi
+2. Jenis Device yang ada sangat beragam
+3. Menambah User Experience
+
+Objektif Belajar:
+1. Mengerti cara kerja website
+2. HTML,CSS dan JavaScript
+3. Mempelajari Library JQuery
+4. Mempelajari Library Boostrap
+5. Website rensponsive
+
+Output: 1.Membuat website
+	2. Mendeploy website
+
+
+#Bagaimana Cara Website Bekerja#
+Website dapat dijelaskan dengan analogi sebuah restoran yang terdiri dari chef, waiters, dan konsumen. Berikut ini adalah penjelasan analogi tersebut:
+
+Chef: Chef adalah bagian dari restoran yang bertanggung jawab untuk memasak makanan. Dalam website, chef ini dapat diibaratkan sebagai server atau back-end, di mana server berperan sebagai bagian dari website yang menyiapkan dan memproses data.
+
+Waiters: Waiters adalah bagian dari restoran yang bertanggung jawab untuk mengantar makanan ke meja konsumen dan memastikan mereka memiliki pengalaman yang menyenangkan selama makan di restoran tersebut. Dalam website, waiters ini dapat diibaratkan sebagai front-end atau antarmuka pengguna, di mana front-end bertanggung jawab untuk menampilkan data dari server ke pengguna.
+
+Konsumen: Konsumen adalah orang yang datang ke restoran untuk memesan makanan dan menikmatinya. Dalam website, konsumen ini dapat diibaratkan sebagai pengguna yang mengakses website untuk mencari informasi atau melakukan transaksi.
+
+Dengan analogi ini, dapat dikatakan bahwa website bekerja dengan cara seperti restoran, di mana server atau back-end menyediakan data yang diperlukan oleh front-end atau antarmuka pengguna. Front-end kemudian menampilkan data tersebut ke pengguna sehingga mereka dapat menggunakan website dengan mudah dan efisien, seperti konsumen yang menikmati hidangan di restoran.
+
+#Apa itu Front-End#
+Front-End: Tampilan, Apa yang dilihat user, Berinteraksi dengan User
+Back-End: Memproses request user, Tidak dapat dilihat user, Berinteraksi secara tidak lansung dengan user.
+
+HTML (Hyper-Text Markup Language):Bukan bahasa pemrograman. Berguna untuk memberi struktur pada web seperti letak gambar, letak tulisan dll.
+CSS (Cascading Style Sheet): Bukan bahasa pemrograman. Berguna untuk mendesain pada web, seperti membuat text berwarna, memberikan border pada gambar, dll.
+JavaScript: Bahasa Pemrograman. Berguna untuk membuat logika pada website, seperti melakukan operasi matematika, loada data dari youtube, melakukan perhitungan. Juga berguna untuk menambahkan interaksi, seperti apabila user klik warna tulisan akan berubah.
+
+Analogi: HTML merupakan rangka manusia, JS sebagai otak yang berfungsi mengatur manusia, CSS merupakan tampilan luar pada manusia.
+
+
+#Permulaan Front-End: Tools#
+
+Text Editor: Notepad, VisualStudioCode (Rekomendasi), Sublime Text, ATOM.
+
+Browser: GoogleChrome (Rekomendasi), Firefox, Safari.
+
+Alternative (Online Editor): Codepen, glitch.
+
+

@@ -1,0 +1,47 @@
+<!-- INPUT HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Tag input HTML digunakan untuk membuat input form pada halaman web, seperti textbox, checkbox, radio button, dan sebagainya. Berikut adalah contoh sintaks dari tag input: <br>
+
+    <input type="text" name="username" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
+    <input type="checkbox" name="remember" value="1"> Remember Me
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <br>
+
+    Penjelasan dari beberapa atribut yang sering digunakan pada tag input adalah sebagai berikut: <br>
+
+    type: menentukan jenis input form yang akan ditampilkan. Beberapa jenis input form yang sering digunakan antara lain: text, password, checkbox, radio, submit, dan reset. <br>
+    name: menentukan nama variabel yang akan digunakan untuk mengambil data dari input form. <br>
+    value: menentukan nilai atau isi dari input form. <br>
+    placeholder: menampilkan teks bantuan atau petunjuk di dalam input form, contohnya dalam kasus pengisian username atau password. <br>
+    Selain itu, terdapat juga beberapa atribut lain yang dapat digunakan pada tag input, seperti 'disabled' untuk menonaktifkan input form, 'required' untuk membuat input form wajib diisi, dan 'readonly' untuk membuat input form tidak bisa diubah nilainya. <br>
+
+    Contoh penggunaan tag input pada form login sederhana: <br>
+
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+      
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        
+        <select>
+            <option value="A">Pilih A</option>
+            <option value="B">Pilih B</option>
+        </select>
+        <input type="submit" value="Login">
+      </form>
+    
+</body>
+</html>
