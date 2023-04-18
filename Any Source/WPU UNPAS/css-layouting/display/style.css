@@ -1,0 +1,39 @@
+/* inline */
+span {
+    background-color: aquamarine;
+    height: 200px;
+    /* percuma mengubah ukuran karna tidak bisa */
+    /* span,b,i,em,a,sub,sup,button,input,label,select,... memiliki nilai default inline */
+}
+
+/* block */
+.block h1 {
+    background-color: aquamarine;
+    /* h1-h6,p,ol,il,li,form,hr,div,... memiliki nilai default block */
+}
+
+.block p {
+    background-color: brown;
+    height: 200px;
+    /* bisa mengubah ukuran */
+}
+
+/* inline block */
+.inline-block h1 {
+    display: inline-block;
+    /* harus ubah nilai dengan manual */
+    background-color: blue;
+    height: 100px;
+    /* bisa mengatur tinggi/ukuran */
+}
+
+/* none */
+.nonelist {
+    display: none;
+    /* bersifat menghilangkan */
+}
+
+/* custom */
+.baris li {
+    display: inline;
+}

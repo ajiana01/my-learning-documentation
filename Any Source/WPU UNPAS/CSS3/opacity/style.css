@@ -1,0 +1,11 @@
+body {
+    background-image: url(../img/pattern-geo.jpg);
+}
+
+.satu {
+    height: 200px;
+    width: 200px;
+    background-color: salmon;
+    opacity: 0.7;
+
+}

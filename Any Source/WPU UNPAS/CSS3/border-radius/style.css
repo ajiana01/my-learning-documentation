@@ -1,0 +1,57 @@
+.rect1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: salmon;
+}
+
+.rect2  {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 200px;
+}
+
+.rect3 {
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    border-radius: 0 20px 0 20px;
+    /* border-radius: 0 50% 0 50%; */
+    /* border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+}
+
+.rect4 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/pattern.jpg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rect5  {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 200px;
+    /* apapun yang keluar dari div akan di tutupi (overflow) */
+    overflow: hidden; 
+}
+
+.rect6  {
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    border-radius: 0 0 50% 50%; 
+}
