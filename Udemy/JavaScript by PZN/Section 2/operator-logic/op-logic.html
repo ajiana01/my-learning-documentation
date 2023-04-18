@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Operator Logika</title>
+</head>
+<body>
+<script>
+  /*hanya untuk tipe data boolean*/
+  const nilaiUjian = 90;
+  const nilaiAbsen = 70;
+
+  const lulusUjian = nilaiUjian > 75;
+  document.writeln("<p>" + lulusUjian + "</p>");
+  const  lulusAbsensi = nilaiAbsen > 75;
+  document.writeln("<p>" + lulusAbsensi + "</p>");
+
+  const lulus = lulusUjian && lulusAbsensi; //false
+  document.writeln("<p>" + lulus + "</p>");
+
+
+</script>
+</body>
+</html>
