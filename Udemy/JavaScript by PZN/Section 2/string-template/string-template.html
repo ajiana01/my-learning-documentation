@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>String Template</title>
+</head>
+<body>
+
+  <script>
+    //menggunakan backtik, bukan tanda petik
+    // const template =  `Name: `;
+    // lebih efisien dibandingkan kita menggunakan operator plus
+
+    //cara mengambil variable
+    const name = "John doe";
+    const template = `Name: ${name}`;
+
+    console.info(template);
+
+
+    //expression string template
+    const nilai = 90;
+    const tempalate2 =  `Nama: ${name}, Lulus: ${nilai>70}`;
+
+    console.info(tempalate2);
+
+    //Multiline string
+
+    const multiline = `Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit.
+        Adipisci consectetur dolor eaque impedit
+    iusto natus perspiciatis quis
+    reprehenderit veniam voluptatibus!`;
+
+
+    document.writeln("<pre>");
+    document.writeln(multiline);
+    document.writeln("</pre>");
+
+  </script>
+
+</body>
+</html>

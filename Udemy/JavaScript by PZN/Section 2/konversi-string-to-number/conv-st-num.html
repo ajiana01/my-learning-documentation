@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Konversi tipe data string to number</title>
+</head>
+<body>
+  <script>
+
+    //kode dibawah ini akan menjadi problem yang mungkin akan ditemukan
+    //apabila string bertemu dengan number
+
+    const  value1 = "1";
+    const value2 = 1;
+
+    const sum = value1 + value2;
+
+    document.writeln(`<p>${sum}</p>`); //maka hasilnya adalah 11 bukan 2
+
+    document.writeln("<hr>");
+
+    //maka diperlukan konversi
+    // function                   keterangan
+    // parseInt(string)    -->   konv string to number (bil. bulat)
+    // parseFloat(string)  -->   konv string to number (bil pecahan)
+    // Number(string)      -->   konv string to number (both)
+    // number.toString()   -->   konv number to string
+
+    const  value3 = Number("1");
+    const sum2 = value3 + value2;
+    document.writeln(`<p>${sum2}</p>`);
+
+    document.writeln(`<p>${parseInt("1.3")}</p>`);
+    document.writeln(`<p>${parseFloat("1.3")}</p>`);
+    document.writeln(`<p>${Number("1.3")}</p>`);
+
+    const a = 1;
+    const b = 2;
+    const total = a.toString()+b.toString();
+    document.writeln(`<p>${total}</p>`);
+
+    document.writeln("<hr>");
+
+    //NaN
+    document.writeln(`<p>${parseInt("1johny")}</p>`);
+    document.writeln(`<p>${parseFloat("1.3sujiwo")}</p>`);
+
+    document.writeln(`<p>${Number("1johny")}</p>`);
+    document.writeln(`<p>${Number("1.3sujiwo")}</p>`);
+
+    document.writeln("<hr>");
+
+    //operation NaN
+    const first = Number("sepuluh"); //NaN
+    const totalNumber = first + 10;
+    document.writeln(`<p>${totalNumber}</p>`); //NaN
+
+    //Pengecekan NaN
+
+    document.writeln(`<p>${isNaN(first)}</p>`);
+    document.writeln(`<p>${isNaN(100)}</p>`);
+    document.writeln(`<p>${isNaN(NaN)}</p>`);
+
+
+
+
+
+  </script>
+</body>
+</html>
