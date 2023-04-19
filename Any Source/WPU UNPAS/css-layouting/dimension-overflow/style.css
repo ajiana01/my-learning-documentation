@@ -1,0 +1,71 @@
+.parent {
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.child {
+    width: 70%;
+    /*persen relatif terhadap parent*/
+    background-color: blue;
+}
+
+.child2 {
+    width: 150%;
+    /*persen relatif terhadap parent*/
+    /*akan melebihi parentnya*/
+    background-color: cadetblue;
+}
+
+.parent2 {
+    /*text akan menyesuaikan dengan lebar yang ditentukan css, sehingga tidak panjang*/
+    width: 150px;
+    background-color: salmon;
+
+}
+
+.parent3 {
+    /*apabila text terlalu panjang akan tetapi width dan height tidak bisa menampung, maka teks akan keluar dari pembungkus*/
+    width: 150px;
+    height: 100px;
+    background-color: darkcyan;
+
+}
+
+/*Permasalahan dari parent3 bisa diatasi dengan OVERFLOW*/
+/*nilai default overflow adalah visible seperti parent3, yang artinya apabila konten teks berlebihan maka akan diperlihatkan*/
+
+/*terdapat 4 value: visible, auto, hidden, scroll*/
+
+.auto {
+    /*akan menampilkan scroll, apabila konten berlebihan*/
+    width: 150px;
+    height: 100px;
+    background-color: green;
+    overflow: auto;
+}
+
+.auto2 {
+    /*jika konten cukup, maka tidak akan menampilkan scroll*/
+    width: 150px;
+    height: 100px;
+    background-color: greenyellow;
+    overflow: auto;
+}
+
+.hide {
+    /*langsung menghilangkan isi konten apabila tidak sesuai dari pembungkus*/
+    width: 150px;
+    height: 100px;
+    background-color: green;
+    overflow: hidden;
+}
+
+.scroll {
+    /*mau isi konten penuh atau tidak tetap akan membuat scroll sesuai width dan height*/
+    width: 300px;
+    height: 400px;
+    background-color: green;
+    overflow: scroll;
+
+}
