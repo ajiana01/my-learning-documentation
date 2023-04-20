@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tipe Data Array</title>
+</head>
+<body>
+    <script>
+
+        //OPERASI ARRAY
+        //array.push(value)         --> menambah data array
+        //array.length              --> untuk mendapatkan panjang array
+        //array[index]              --> mendapatkan data di posisi index
+        //array[index] = value      --> mengubah data di posisi index
+        //delete array[index]       --> menghapus data di posisi index, tapi index tidak bergeser
+
+        let arrayKosong = [];
+        arrayKosong.push("satu", 2, "tiga", 4, "true");
+
+        let arrayNama = ["Kurniawan","Jundi", "Molotov", 1, 2, 3];
+
+        console.table(arrayNama);
+        console.table(arrayKosong);
+
+        //mengubah data
+        arrayNama[1] = "Budi";
+
+        //cek data
+        console.info(arrayKosong[0]);
+        console.info(arrayKosong[1]);
+        console.info(arrayKosong[2]);
+
+        //cek length
+        console.table(arrayNama);
+        console.info(arrayNama.length);
+
+        //delete
+        delete arrayKosong[3];
+        console.table(arrayKosong);
+
+        //push lagi
+        arrayKosong.push(2234);
+        console.table(arrayKosong);
+
+        //masih bisa diakses index nya
+        arrayKosong[3]="budiman";
+        console.table(arrayKosong);
+
+        //bisa memasukan array kedalam array
+        arrayKosong.push(arrayNama);
+        console.table(arrayKosong);
+    </script>
+</body>
+</html>
