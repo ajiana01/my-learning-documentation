@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pop Up</title>
+</head>
+<body>
+<script>
+  //alert
+  alert("Jangan mencontek ya!");
+
+  //prompt
+  const name = prompt("Mencontek atau tidak?");
+  alert(`Jadi kamu jujur ${name} mencontek dalam ujian`);
+
+  //confirm
+  const masuk = confirm("Apakaha sudah berumur 18+?");
+  if (masuk) {
+    const nama = prompt("Yakin dekk?? Sebutkan NIm dan nama!");
+    alert(`Silahkan masuk ${nama}`);
+  } else {
+    alert(`Silahkan keluar`);
+  }
+</script>
+</body>
+</html>

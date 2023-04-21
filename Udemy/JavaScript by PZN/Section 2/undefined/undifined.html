@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Undefined</title>
+</head>
+<body>
+<script>
+  let name;
+  if (name===undefined) {
+    alert("UNDEFINED");
+  } else {
+    alert("DEFINED");
+  }
+
+  let nama="Budi";
+  if (nama===undefined) {
+    alert("UNDEFINED");
+  } else {
+    alert("DEFINED");
+  }
+
+  let namaArr= ["Budi", "Kurniawan"];
+  if (namaArr[2]===undefined) {
+    console.info("UNDEFINED");
+  } else {
+    console.info("DEFINED");
+  }
+
+  delete namaArr[0];
+
+  if (namaArr[0]===undefined) {
+    console.info("UNDEFINED");
+  } else {
+    console.info("DEFINED");
+  }
+
+  //OBJECT
+
+  const  person={
+    nama: "Sujatmono"
+  };
+  if (person.nama===undefined) {
+    console.info("OBJECT UNDEFINED");
+  } else {
+    console.info("OBJECT DEFINED!");
+  }
+</script>
+</body>
+</html>
