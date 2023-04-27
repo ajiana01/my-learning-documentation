@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In Operator</title>
+</head>
+<body>
+  <script>
+
+    const person = {
+      firstName: "Name depan",
+      lastName: undefined
+    }
+
+    const namaTengah = "Nama tengah";
+
+    const result = "firstName" in person;
+    document.writeln(`<p>${result}</p>`)
+
+    const result2 = "nameTengah" in person;
+    document.writeln(`<p>${result2}</p>`)
+
+
+    // walaupun undefined atau null masih akan dianggap tetap ada (tidak membaca value)
+    const result3 = "lastName" in person;
+    document.writeln(`<p>${result3}</p>`)
+
+
+  </script>
+</body>
+</html>
